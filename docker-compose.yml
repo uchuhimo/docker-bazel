@@ -1,0 +1,7 @@
+version: "3"
+services:
+  bazel:
+    build: .
+    container_name: bazel
+    volumes:
+      - ${BAZEL_WORKSPACE}:/workspace:rw
