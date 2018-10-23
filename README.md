@@ -19,7 +19,7 @@ Execute command in container:
 docker-compose exec --user <user-name> bazel python -V
 ```
 
-Build TensorFlow from source (use v1.10.0 as example):
+Build TensorFlow from source (use v1.10.0 as example, check https://www.tensorflow.org/install/source for more details):
 
 ```
 cd /path/to/tensorflow
